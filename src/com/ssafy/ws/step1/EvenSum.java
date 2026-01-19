@@ -10,8 +10,9 @@ public class EvenSum {
 		Scanner scann=new Scanner(System.in);
 		int n=scann.nextInt();
 		int ans=0;
-		for (int i = 1; i < n+1; i++) {
-			if(i%2==0) {
+		// 짝수의 합을 위해 반복문과 조건문을 완성해보시오.
+		for (int i = ____; ______; i++) {
+			if(__________) {
 				ans+=i; // ans=ans+i;
 			}
 		}
