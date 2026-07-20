@@ -11,8 +11,8 @@ public class EvenSum {
 		int n=scann.nextInt();
 		int ans=0;
 		// 짝수의 합을 위해 반복문과 조건문을 완성해보시오.
-		for (int i = ____; ______; i++) {
-			if(__________) {
+		for (int i = 1; i<=n; i++) {
+			if(i%2==0) {
 				ans+=i; // ans=ans+i;
 			}
 		}
